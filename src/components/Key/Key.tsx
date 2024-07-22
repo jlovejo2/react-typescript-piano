@@ -7,7 +7,7 @@ type KeyProps = {
     type: NoteType
     label: string
     disabled?: boolean
-    children?: React.ReactNode
+    // children?: React.ReactNode
 }
 
 export const Key: FunctionComponent<KeyProps> = ( props ) => {
