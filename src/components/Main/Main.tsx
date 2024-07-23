@@ -1,8 +1,8 @@
 import { NoAudioMessage } from "../NoAudioMessage";
 import { useAudioContext } from "../AudioContextProvider";
-import { Keyboard } from "../Keyboard";
+import { KeyboardWithInstrument } from "../Keyboard";
 
 export const Main = () => {
     const AudioContext = useAudioContext();
-    return !!AudioContext ? <Keyboard /> : <NoAudioMessage />;
+    return !!AudioContext ? <KeyboardWithInstrument /> : <NoAudioMessage />;
 };
