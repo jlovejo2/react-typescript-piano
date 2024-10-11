@@ -48,4 +48,4 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ### Stopped at
 
-- Creating a Render Props 10-10-24
+- Higher-Order Functions 10-11-24
